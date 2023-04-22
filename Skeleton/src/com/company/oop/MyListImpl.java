@@ -7,4 +7,9 @@ public class MyListImpl<T> implements MyList<T> {
     public int size() {
         return 0;
     }
+
+    @java.lang.Override
+    public void add(T element) {
+
+    }
 }
